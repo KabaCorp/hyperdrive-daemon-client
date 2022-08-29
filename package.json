@@ -1,0 +1,51 @@
+{
+  "name": "hyperdrive-daemon-client",
+  "version": "2.0.4",
+  "description": "A client library and CLI tool for interacting with the Hyperdrive daemon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/index.js"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercore-protocol/hyperdrive-daemon-client.git"
+  },
+  "keywords": [
+    "hyperdrive",
+    "daemon",
+    "client"
+  ],
+  "author": "Andrew Osheroff <andrewosh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypercore-protocol/hyperdrive-daemon-client/issues"
+  },
+  "homepage": "https://github.com/hypercore-protocol/hyperdrive-daemon-client#readme",
+  "dependencies": {
+    "call-me-maybe": "^1.0.1",
+    "cli-progress": "^3.4.0",
+    "codecs": "^2.0.0",
+    "hyperdrive": "^10.14.1",
+    "hyperdrive-network-heuristics": "^1.0.2",
+    "hyperdrive-schemas": "^2.0.0",
+    "hyperspace": "kabacorp/hyperspace",
+    "last-one-wins": "^1.0.4",
+    "mirror-folder": "^3.0.1",
+    "nanoresource-promise": "^1.2.2",
+    "ora": "^4.0.3",
+    "peersockets": "^1.0.0",
+    "pump": "^3.0.0",
+    "pumpify": "^2.0.0",
+    "stream-collector": "^1.0.1",
+    "streamx": "^2.6.0",
+    "tmp-promise": "^3.0.2"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  }
+}

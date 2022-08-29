@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+  - '12'
+  - '14'
+  - 'lts/*'
+
+env:
+  - NODE_ENV=test
+
+os:
+  - osx
+  - linux
+
+cache:
+  npm: false
